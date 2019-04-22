@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/a-urth/go-bindata"
+	"toolman.org/io/bindata"
 )
 
 func main() {
