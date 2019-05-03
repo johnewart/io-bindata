@@ -1,0 +1,22 @@
+dependencies:
+  build:
+    - go:1.12
+  runtime:
+    - go:1.12
+
+build_targets:
+  - name: default
+    commands:
+      - go get
+      - go build
+
+exec:
+  commands:
+    - ./dockbuild
+
+
+ci:
+  builds:
+    - name: test
+      build_target: default
+
