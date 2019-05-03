@@ -1,4 +1,4 @@
-## bindata
+## io-bindata
 
 This package converts any file into manageable Go source code. Useful for
 embedding binary data into a go program. The file data is optionally gzip
